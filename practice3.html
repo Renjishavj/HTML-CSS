@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with Divs</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .header, .footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        .content {
+            display: flex;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #e4e4e4;
+            padding: 10px;
+        }
+        .main {
+            width: 60%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Website</h1>
+        </div>
+        <div class="content">
+            <div class="sidebar">Left Sidebar</div>
+            <div class="main">Main Content</div>
+            <div class="sidebar">Right Sidebar</div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table,
+    th,
+    tr,
+    td {
+      border: 1px solid black;
+      padding: 15px;
+      text-align: left;
+      border-left: 1px solid #ddd;
+    }
+
+    /* tr:hover {background-color: coral;} */
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    /* list */
+    ul.a {
+      list-style-type: circle;
+    }
+
+    ul.b {
+      list-style-type: default;
+    }
+
+    ol.c {
+      /* list-style-type: upper-roman; */
+      /* list-style-type: numeric; */
+      list-style-type: armenian;
+    }
+
+    ol.d {
+      list-style-type: upper-alpha;
+    }
+
+    .head {
+      color: red;
+      font-size: 60px;
+      background-color: antiquewhite;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="head">Table</h1>
+
+  <table>
+    <tr>
+      <th >Firstname</th>
+      <th>Lastname</th>
+    </tr>
+    <tr>
+      <td>Peter</td>
+      <td>Griffin</td>
+    </tr>
+    <tr>
+      <td>Lois</td>
+      <td>Griffin</td>
+    </tr>
+    <tr>
+      <td>Lois</td>
+      <td>Griffin</td>
+    </tr>
+    <tr>
+      <td>Lois</td>
+      <td>Griffin</td>
+    </tr>
+  </table>
+  <caption>table</caption>
+</body>
+
+</html>

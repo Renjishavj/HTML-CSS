@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <title>CSS position</title>
+        <style>
+            p {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+p.main {
+    position: relative;
+    /* positions 90px from the top */
+    top: 500px;
+    
+    /* positions 40px from the left */
+    right: 40px;
+    
+    background-color: greenyellow;
+}
+        </style>
+    </head>
+
+    <body>
+        <p>This is a normal paragraph.</p>
+        <p class="main">
+            This paragraph is positioned with a relative value of top 50px and
+            left 40px.
+        </p>
+        <p>This is a normal paragraph.</p>
+    </body>
+
+</html>
